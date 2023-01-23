@@ -1,0 +1,7 @@
+{
+  "$id": "taxonomy_conditionTreated",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v2",
+  "description": "",
+  "displayName": "Condition Treated",
+  "pluralDisplayName": "Conditions Treated"
+}

@@ -1,0 +1,22 @@
+{
+  "$id": "taxonomy_relatedReasonsForVisit",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Related Reasons for Visit",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "entityReference",
+      "type": {
+        "entityReferenceType": {
+          "supportedEntityTypeIds": [
+            "taxonomy_reasonForVisit"
+          ],
+          "type": "ONE_WAY"
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}

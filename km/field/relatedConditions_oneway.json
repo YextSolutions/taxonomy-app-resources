@@ -1,0 +1,23 @@
+{
+  "$id": "taxonomy_relatedConditions",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Related Conditions",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "entityReference",
+      "maxLength": 3000,
+      "type": {
+        "entityReferenceType": {
+          "supportedEntityTypeIds": [
+            "taxonomy_conditionTreated"
+          ],
+          "type": "ONE_WAY"
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}

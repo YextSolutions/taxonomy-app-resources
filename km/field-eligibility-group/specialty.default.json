@@ -1,0 +1,10 @@
+{
+  "$id": "taxonomy_specialty.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Specialty-default",
+  "entityType": "taxonomy_specialty",
+  "fields": [
+    "taxonomy_synonyms"
+  ],
+  "required": []
+}

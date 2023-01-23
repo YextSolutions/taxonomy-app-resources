@@ -1,0 +1,10 @@
+{
+  "$id": "taxonomy_reasonForVisit.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Reason for Visit-default",
+  "entityType": "taxonomy_reasonForVisit",
+  "fields": [
+    "taxonomy_synonyms"
+  ],
+  "required": []
+}

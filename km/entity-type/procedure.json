@@ -1,0 +1,7 @@
+{
+  "$id": "taxonomy_procedure",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v2",
+  "description": "",
+  "displayName": "Procedure",
+  "pluralDisplayName": "Procedures"
+}

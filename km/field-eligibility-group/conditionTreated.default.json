@@ -1,0 +1,10 @@
+{
+  "$id": "taxonomy_conditionTreated.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Condition Treated-default",
+  "entityType": "taxonomy_conditionTreated",
+  "fields": [
+    "taxonomy_synonyms"
+  ],
+  "required": []
+}

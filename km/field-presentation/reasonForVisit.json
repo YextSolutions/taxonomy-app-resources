@@ -1,0 +1,6 @@
+{
+  "$id": "taxonomy_reasonForVisit",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "taxonomy_reasonForVisit",
+  "displayName": "Reason for Visit"
+}

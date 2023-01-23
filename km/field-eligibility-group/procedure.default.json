@@ -1,0 +1,10 @@
+{
+  "$id": "taxonomy_procedure.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Procedure-default",
+  "entityType": "taxonomy_procedure",
+  "fields": [
+    "taxonomy_synonyms"
+  ],
+  "required": []
+}

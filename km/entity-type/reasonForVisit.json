@@ -1,0 +1,7 @@
+{
+  "$id": "taxonomy_reasonForVisit",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v2",
+  "description": "",
+  "displayName": "Reason for Visit",
+  "pluralDisplayName": "Reasons for Visit"
+}
