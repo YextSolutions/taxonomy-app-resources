@@ -1,0 +1,18 @@
+{
+  "source": {
+    "selectors": [
+      {
+        "type": "JSON",
+        "header": "taxonomy_relatedReasonsForVisit",
+        "path": "taxonomy_relatedReasonsForVisit"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "field": "taxonomy_relatedReasonsForVisit",
+      "header": "taxonomy_relatedReasonsForVisit",
+      "subfieldPath": []
+    }
+  ]
+}

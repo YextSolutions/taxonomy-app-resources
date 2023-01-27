@@ -1,0 +1,18 @@
+{
+  "source": {
+    "selectors": [
+      {
+        "type": "JSON",
+        "header": "taxonomy_subspecialties",
+        "path": "taxonomy_subspecialties"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "field": "taxonomy_subspecialties",
+      "header": "taxonomy_subspecialties",
+      "subfieldPath": []
+    }
+  ]
+}

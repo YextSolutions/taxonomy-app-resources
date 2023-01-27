@@ -1,8 +1,8 @@
 {
-  "$id": "taxonomy_specialtiesConnector",
+  "$id": "taxonomy_subspecialtiesConnector",
   "$schema": "https://schema.yext.com/config/km/connector/v3",
-  "displayName": "Specialties Connector",
-  "entityType": "taxonomy_specialty",
+  "displayName": "Subspecialties Connector",
+  "entityType": "taxonomy_subspecialty",
   "source": {
     "sourceConfig": {
       "nativeSourceConfig": {
@@ -10,7 +10,7 @@
         "operation": "fetchEntities",
         "inputs": {
           "apiKey": "${{km/connector.taxonomy_specialtiesConnector.apiKey}}",
-          "entityType": "taxonomy_specialty",
+          "entityType": "taxonomy_subspecialty",
           "environment": "api",
           "vParam": "20230122"
         }
@@ -21,11 +21,6 @@
         "type": "JSON",
         "header": "name",
         "path": "name"
-      },
-      {
-        "type": "JSON",
-        "header": "taxonomy_relatedConditions",
-        "path": "taxonomy_relatedConditions"
       },
       {
         "type": "JSON",
@@ -74,37 +69,12 @@
       },
       {
         "type": "JSON",
-        "header": "taxonomy_relatedProcedures",
-        "path": "taxonomy_relatedProcedures"
-      },
-      {
-        "type": "JSON",
-        "header": "taxonomy_relatedReasonsForVisit",
-        "path": "taxonomy_relatedReasonsForVisit"
-      },
-      {
-        "type": "JSON",
-        "header": "taxonomy_subspecialties",
-        "path": "taxonomy_subspecialties"
-      },
-      {
-        "type": "JSON",
         "header": "taxonomy_synonyms",
         "path": "taxonomy_synonyms"
       }
     ]
   },
   "mappings": [
-    {
-      "field": "taxonomy_relatedReasonsForVisit",
-      "header": "taxonomy_relatedReasonsForVisit",
-      "subfieldPath": []
-    },
-    {
-      "field": "c_relatedProcedures",
-      "header": "taxonomy_relatedProcedures",
-      "subfieldPath": []
-    },
     {
       "field": "entityId",
       "header": "meta.id",
@@ -118,16 +88,6 @@
     {
       "field": "taxonomy_synonyms",
       "header": "taxonomy_synonyms",
-      "subfieldPath": []
-    },
-    {
-      "field": "c_subspecialties",
-      "header": "taxonomy_subspecialties",
-      "subfieldPath": []
-    },
-    {
-      "field": "taxonomy_relatedConditions",
-      "header": "taxonomy_relatedConditions",
       "subfieldPath": []
     }
   ]

@@ -1,0 +1,18 @@
+{
+  "source": {
+    "selectors": [
+      {
+        "type": "JSON",
+        "header": "taxonomy_relatedConditions",
+        "path": "taxonomy_relatedConditions"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "field": "taxonomy_relatedConditions",
+      "header": "taxonomy_relatedConditions",
+      "subfieldPath": []
+    }
+  ]
+}

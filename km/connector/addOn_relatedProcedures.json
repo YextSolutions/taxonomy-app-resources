@@ -1,0 +1,18 @@
+{
+  "source": {
+    "selectors": [
+      {
+        "type": "JSON",
+        "header": "taxonomy_relatedProcedures",
+        "path": "taxonomy_relatedProcedures"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "field": "taxonomy_relatedProcedures",
+      "header": "taxonomy_relatedProcedures",
+      "subfieldPath": []
+    }
+  ]
+}
