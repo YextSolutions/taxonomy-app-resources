@@ -1,0 +1,19 @@
+{
+  "$id": "taxonomy_relatedHealthcareProfessionals",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Related Healthcare Professionals",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "entityReference",
+      "type": {
+        "entityReferenceType": {
+          "relatedFieldId": "taxonomy_relatedSpecialties",
+          "type": "TWO_WAY"
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}
