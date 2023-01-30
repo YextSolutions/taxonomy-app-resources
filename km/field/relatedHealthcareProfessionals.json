@@ -9,7 +9,7 @@
       "typeId": "entityReference",
       "type": {
         "entityReferenceType": {
-          "relatedFieldId": "taxonomy_relatedSpecialties",
+          "relatedFieldId": "",
           "type": "TWO_WAY"
         }
       }
