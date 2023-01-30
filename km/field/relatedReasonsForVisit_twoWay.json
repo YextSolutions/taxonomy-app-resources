@@ -1,8 +1,8 @@
 {
-  "$id": "taxonomy_relatedSpecialty",
+  "$id": "taxonomy_relatedReasonsForVisit",
   "$schema": "https://schema.yext.com/config/km/field/v1",
   "description": "",
-  "displayName": "Related Specialty",
+  "displayName": "Related Reasons For Visit",
   "group": "NONE",
   "localization": "PRIMARY_ONLY",
   "type": {
@@ -10,10 +10,8 @@
       "typeId": "entityReference",
       "type": {
         "entityReferenceType": {
-          "supportedEntityTypeIds": [
-            "taxonomy_specialty"
-          ],
-          "type": "ONE_WAY"
+          "relatedFieldId": "taxonomy_relatedHealthcareProfessionals",
+          "type": "TWO_WAY"
         }
       }
     }

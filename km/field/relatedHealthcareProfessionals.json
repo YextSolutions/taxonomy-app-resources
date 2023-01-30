@@ -1,8 +1,7 @@
 {
-  "$id": "taxonomy_relatedConditions",
+  "$id": "taxonomy_relatedHealthcareProfessionals",
   "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
-  "displayName": "Related Conditions",
+  "displayName": "Related Healthcare Professionals",
   "group": "NONE",
   "localization": "PRIMARY_ONLY",
   "type": {
@@ -10,10 +9,8 @@
       "typeId": "entityReference",
       "type": {
         "entityReferenceType": {
-          "supportedEntityTypeIds": [
-            "taxonomy_conditionTreated"
-          ],
-          "type": "ONE_WAY"
+          "relatedFieldId": "taxonomy_relatedSpecialties",
+          "type": "TWO_WAY"
         }
       }
     }
