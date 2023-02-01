@@ -10,7 +10,8 @@
       "typeId": "entityReference",
       "type": {
         "entityReferenceType": {
-          "type": "TWO_WAY"
+          "type": "TWO_WAY",
+          "relatedFieldId": "taxonomy_relatedHealthcareProfessionals"
         }
       }
     }
