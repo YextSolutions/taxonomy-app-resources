@@ -10,7 +10,7 @@
   "validation": {
       "minItemCount": 0,
       "entityRelationship": {
-          "relatedFieldId": "taxonomy_relatedHealthcareProfessionals",
+          "relatedFieldId": "taxonomy_relatedHealthcareProfessionalsForProcedures",
           "type": "TWO_WAY"
       }
   },
