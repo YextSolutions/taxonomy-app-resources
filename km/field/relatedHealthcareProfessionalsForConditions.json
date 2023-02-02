@@ -1,0 +1,20 @@
+{
+    "id": "taxonomy_relatedHealthcareProfessionalsForConditions",
+    "type": "ENTITY_RELATIONSHIP",
+    "name": {
+        "value": "Related Healthcare Professionals",
+        "translations": []
+    },
+    "alternateLanguageBehavior": "PRIMARY_ONLY",
+    "group": "NONE",
+    "validation": {
+        "minItemCount": 0,
+        "entityRelationship": {
+            "relatedFieldId": "taxonomy_relatedConditions",
+            "type": "TWO_WAY"
+        }
+    },
+    "entityAvailability": [
+        "taxonomy_conditionTreated"
+    ]
+}
