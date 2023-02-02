@@ -1,20 +1,20 @@
 {
-  "$id": "taxonomy_relatedReasonsForVisit",
-  "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
-  "displayName": "Related Reasons For Visit",
+  "id": "taxonomy_relatedReasonsForVisit",
+  "type": "ENTITY_RELATIONSHIP",
+  "name": {
+      "value": "Related Reasons for Visit",
+      "translations": []
+  },
+  "alternateLanguageBehavior": "PRIMARY_ONLY",
   "group": "NONE",
-  "localization": "PRIMARY_ONLY",
-  "type": {
-    "listType": {
-      "typeId": "entityReference",
-      "type": {
-        "entityReferenceType": {
+  "validation": {
+      "minItemCount": 0,
+      "entityRelationship": {
           "relatedFieldId": "taxonomy_relatedHealthcareProfessionals",
           "type": "TWO_WAY"
-        }
       }
-    }
   },
-  "typeId": "list"
+  "entityAvailability": [
+      "healthcareProfessional"
+  ]
 }

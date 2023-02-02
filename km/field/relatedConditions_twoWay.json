@@ -1,20 +1,20 @@
 {
-  "$id": "taxonomy_relatedConditions",
-  "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
-  "displayName": "Related Conditions",
+  "id": "taxonomy_relatedConditions",
+  "type": "ENTITY_RELATIONSHIP",
+  "name": {
+      "value": "Related Conditions",
+      "translations": []
+  },
+  "alternateLanguageBehavior": "PRIMARY_ONLY",
   "group": "NONE",
-  "localization": "PRIMARY_ONLY",
-  "type": {
-    "listType": {
-      "typeId": "entityReference",
-      "type": {
-        "entityReferenceType": {
+  "validation": {
+      "minItemCount": 0,
+      "entityRelationship": {
           "relatedFieldId": "taxonomy_relatedHealthcareProfessionals",
           "type": "TWO_WAY"
-        }
       }
-    }
   },
-  "typeId": "list"
+  "entityAvailability": [
+      "healthcareProfessional"
+  ]
 }

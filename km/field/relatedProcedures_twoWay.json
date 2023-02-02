@@ -1,20 +1,20 @@
 {
-  "$id": "taxonomy_relatedProcedures",
-  "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
-  "displayName": "Related Procedures",
+  "id": "taxonomy_relatedProcedures",
+  "type": "ENTITY_RELATIONSHIP",
+  "name": {
+      "value": "Related Procedures",
+      "translations": []
+  },
+  "alternateLanguageBehavior": "PRIMARY_ONLY",
   "group": "NONE",
-  "localization": "PRIMARY_ONLY",
-  "type": {
-    "listType": {
-      "typeId": "entityReference",
-      "type": {
-        "entityReferenceType": {
+  "validation": {
+      "minItemCount": 0,
+      "entityRelationship": {
           "relatedFieldId": "taxonomy_relatedHealthcareProfessionals",
           "type": "TWO_WAY"
-        }
       }
-    }
   },
-  "typeId": "list"
+  "entityAvailability": [
+      "healthcareProfessional"
+  ]
 }
