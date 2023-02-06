@@ -1,0 +1,20 @@
+{
+  "id": "taxonomy_relatedSpecialties",
+  "type": "ENTITY_RELATIONSHIP",
+  "name": {
+      "value": "Related Specialties",
+      "translations": []
+  },
+  "alternateLanguageBehavior": "PRIMARY_ONLY",
+  "group": "NONE",
+  "validation": {
+      "minItemCount": 0,
+      "entityRelationship": {
+          "relatedFieldId": "taxonomy_relatedHealthcareProfessionalsForSpecialties",
+          "type": "TWO_WAY"
+      }
+  },
+  "entityAvailability": [
+      "healthcareProfessional"
+  ]
+}
