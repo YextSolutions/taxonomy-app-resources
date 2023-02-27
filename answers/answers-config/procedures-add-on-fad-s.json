@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "find-a-doc-specialties",
+  "name": "Find a Doc",
+  "verticals": {
+    "healthcare_professionals": {
+      "displayFields": [
+        "taxonomy_specialty.taxonomy_relatedProcedures.name"
+      ],
+      "name": "Healthcare Professionals",
+      "searchableFields": {
+        "taxonomy_specialty.taxonomy_relatedProcedures.taxonomy_synonyms": {
+            "staticFilter": true
+        },
+        "taxonomy_specialty.taxonomy_relatedProcedures.name": {
+            "facet": true,
+            "staticFilter": true
+        }
+      },
+      "sortBys": [
+        {
+          "buckets": [],
+          "type": "RANDOM"
+        },
+        {
+          "buckets": [],
+          "type": "RELEVANCE"
+        }
+      ],
+      "source": "KNOWLEDGE_MANAGER"
+    }
+  }
+}

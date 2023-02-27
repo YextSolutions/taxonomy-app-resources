@@ -1,0 +1,22 @@
+{
+    "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+    "$id": "find-a-doc-terms",
+    "verticals": {
+      "healthcare_professionals": {
+        "displayFields": [
+          "taxonomy_relatedReasonsForVisit.name",
+          "taxonomy_relatedReasonsForVisit.taxonomy_synonyms"
+        ],
+        "name": "Healthcare Professionals",
+        "searchableFields": {
+          "taxonomy_relatedReasonsForVisit.taxonomy_synonyms": {
+            "staticFilter": true
+          },
+          "taxonomy_relatedReasonsForVisit.name": {
+            "facet": true,
+            "staticFilter": true
+          }
+        }
+      }
+    }
+  }

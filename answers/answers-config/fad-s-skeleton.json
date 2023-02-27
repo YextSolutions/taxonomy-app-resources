@@ -1,0 +1,74 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "find-a-doc-specialties",
+  "name": "Find a Doc",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "healthcare_professionals": {
+      "displayFields": [
+        "name",
+        "firstName",
+        "lastName",
+        "description",
+        "mainPhone",
+        "headshot",
+        "taxonomy_specialty.name",
+        "taxonomy_specialty.taxonomy_synonyms",
+        "insuranceAccepted",
+        "gender",
+        "landingPageUrl"
+      ],
+      "entityTypes": [
+        "healthcareProfessional"
+      ],
+      "name": "Healthcare Professionals",
+      "searchableFields": {
+        "builtin.location": {
+          "staticFilter": true
+        },
+        "taxonomy_specialty.taxonomy_synonyms": {
+          "staticFilter": true
+        },
+        "taxonomy_specialty.name": {
+          "facet": true,
+          "staticFilter": true
+        },
+        "gender": {
+          "facet": true
+        },
+        "insuranceAccepted": {
+          "facet": true
+        },
+        "name": {
+          "staticFilter": true
+        }
+      },
+      "sortBys": [
+        {
+          "buckets": [],
+          "type": "RANDOM"
+        },
+        {
+          "buckets": [],
+          "type": "RELEVANCE"
+        }
+      ],
+      "source": "KNOWLEDGE_MANAGER"
+    }
+  },
+  "localizations": {},
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "popularQueriesBlacklistedRegex": [],
+    "universalPrompts": [],
+    "verticalPrompts": {
+      "healthcare_professionals": [
+        "[[name]]"
+      ]
+    }
+  }
+}
