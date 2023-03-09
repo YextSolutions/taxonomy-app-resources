@@ -13,14 +13,6 @@
           "description",
           "mainPhone",
           "headshot",
-          "taxonomy_relatedSpecialties.name",
-          "taxonomy_relatedConditions.name",
-          "taxonomy_relatedProcedures.name",
-          "taxonomy_relatedReasonsForVisit.name",
-          "taxonomy_relatedSpecialties.taxonomy_synonyms",
-          "taxonomy_relatedConditions.taxonomy_synonyms",
-          "taxonomy_relatedProcedures.taxonomy_synonyms",
-          "taxonomy_relatedReasonsForVisit.taxonomy_synonyms",
           "insuranceAccepted",
           "gender",
           "landingPageUrl"
@@ -28,43 +20,9 @@
         "entityTypes": [
           "healthcareProfessional"
         ],
-        "facetOrder": [
-          "taxonomy_specialty.name",
-          "taxonomy_relatedConditions.name",
-          "taxonomy_relatedProcedures.name",
-          "taxonomy_relatedReasonsForVisit.name"
-        ],
         "name": "Healthcare Professionals",
         "searchableFields": {
           "builtin.location": {
-            "staticFilter": true
-          },
-          "taxonomy_relatedConditions.taxonomy_synonyms": {
-            "staticFilter": true
-          },
-          "taxonomy_relatedConditions.name": {
-            "facet": true,
-            "staticFilter": true
-          },
-          "taxonomy_relatedProcedures.taxonomy_synonyms": {
-            "staticFilter": true
-          },
-          "taxonomy_relatedProcedures.name": {
-            "facet": true,
-            "staticFilter": true
-          },
-          "taxonomy_relatedReasonsForVisit.taxonomy_synonyms": {
-            "staticFilter": true
-          },
-          "taxonomy_relatedReasonsForVisit.name": {
-            "facet": true,
-            "staticFilter": true
-          },
-          "taxonomy_relatedSpecialties.taxonomy_synonyms": {
-            "staticFilter": true
-          },
-          "taxonomy_relatedSpecialties.name": {
-            "facet": true,
             "staticFilter": true
           },
           "gender": {
