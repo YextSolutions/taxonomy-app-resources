@@ -84,6 +84,11 @@
       "field": "name",
       "header": "name",
       "subfieldPath": []
+    },
+    {
+      "field": "taxonomy_synonyms",
+      "header": "taxonomy_synonyms",
+      "subfieldPath": []
     }
   ]
 }
