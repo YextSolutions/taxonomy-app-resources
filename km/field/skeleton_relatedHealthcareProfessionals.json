@@ -13,8 +13,5 @@
             //"relatedFieldId": "",
             "type": "TWO_WAY"
         }
-    },
-    "entityAvailability": [
-        "taxonomy_specialty"
-    ]
+    }
 }
