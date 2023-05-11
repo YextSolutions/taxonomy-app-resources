@@ -1,6 +1,0 @@
-{
-  "$id": "taxonomy_subspecialty",
-  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
-  "entityType": "taxonomy_subspecialty",
-  "displayName": "Subspecialty"
-}
