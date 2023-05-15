@@ -1,19 +1,7 @@
-{
-  "$id": "taxonomy_synonyms",
-  "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
-  "displayName": "Synonyms",
-  "group": "NONE",
-  "localization": "PRIMARY_ONLY",
-  "type": {
-    "listType": {
-      "typeId": "string",
-      "type": {
-        "stringType": {
-          "stereotype": "SIMPLE"
-        }
-      }
-    }
+[{
+  "id": "taxonomy_synonyms",
+  "name": {
+      "value": "Synonyms"
   },
-  "typeId": "list"
-}
+  "type": "TEXT_LIST"
+}]
